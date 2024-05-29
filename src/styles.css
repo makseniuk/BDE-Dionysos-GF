@@ -1,0 +1,207 @@
+body {
+    font-family: "Monserat";
+    background-image: url('./img/logo-DIONYSOS.jpeg');
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(15px);
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+menu {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+address {
+    font-style: normal;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+}
+
+.section{
+    padding-top: 50px;
+    padding-right: 25px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    padding: 0;
+    display: flex;
+    margin: 0;
+}
+
+.nav-list-items {
+    margin: 0 1rem;
+}
+
+.nav-items-link {
+    color: red;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-items-link:hover {
+    color: pink;
+}
+
+.presentatin-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+}
+
+.main-title-h1 {
+    /* ajouiter la famaille des styles */
+    font-size: 50px;
+    font-weight: 100px;
+    color: red;
+    margin-bottom: 1rem;
+}
+
+.presentation-title {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+/* .span-presentation-title{} */
+
+.text-presentatin-bde {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.prénom-presentatin-bde {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.img-presntation-logo {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 150px;
+    margin-bottom: 1rem;
+}
+
+.main {
+    padding: 2rem;
+}
+
+.div-évent {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.affiche-even {
+    width: 200px;
+    margin-right: 1rem;
+}
+
+.joue-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.joue-descriptif {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.affiche-joue {
+    width: 200px;
+    margin-right: 1rem;
+}
+
+.gallerie-list-items {
+    margin-bottom: 2rem;
+}
+
+.gallerie-items-cards {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.cards-img {
+    width: 200px;
+    margin-right: 1rem;
+}
+
+.cards-title {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.cards-text {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.card-div-svg {
+    display: flex;
+}
+
+.cards-svg-insta {
+    margin-left: 1rem;
+}
+
+.offres-title {
+    font-size: 2rem;
+}
